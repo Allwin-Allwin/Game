@@ -17,8 +17,8 @@
 
 
         .choice {
-            width: 100px;
-            height: 100px;
+            width: 50px ;
+            height: 50px ;
             background-color: red;
         }
         .choice:hover{
@@ -27,7 +27,7 @@
         }
         table{
             margin-left: 40%;
-            margin-right: 50%;
+            margin-right: 40%;
         }
 
     </style>
@@ -116,51 +116,51 @@
 
             //Alert Winner 
             //Diagonal 
-            if(bo1 === bo5 && bo9 === X){
+            if(bo1 === X && X === bo5 && bo9 === X){
                 alert("Player X Won the match ") ;
-            }else if(bo1 === bo5 && bo9 === O){
+            }else if(bo1 === O && O === bo5 && bo9 === O){
                 alert("Player O Won the match ") ;
-            }else if(bo3 === bo5 && bo7 === O){
+            }else if(bo3 === O && O ===  bo5 && bo7 === O){
                 alert("Player O Won the match ") ;
-            }else if(bo3 === bo5 && bo7 === X){
+            }else if(bo3 === X && X === bo5 && bo7 === X){
                 alert("Player X Won the match ") ;
             }
             //Other possibility (Horizontal )  
-            else if(bo1 === bo2 && bo3 === O){
+            else if(bo1 === O && O === bo2 && bo3 === O){
                 alert("Player O Won the match ") ;
             }
-            else if(bo1 === bo2 && bo3 === X){
+            else if(bo1 === X && X === bo2 && bo3 === X){
                 alert("Player X Won the match ") ;
             }
 
-            else if(bo4 === bo5 && bo6 === O){
+            else if(bo4 === O && O === bo5 && bo6 === O){
                 alert("Player O Won the match ") ;
-            }else if(bo4 === bo5 && bo6 === X){
+            }else if(bo4 === X && X ===  bo5 && bo6 === X){
                 alert("Player X Won the match ") ;
             }
 
-            else if(bo7 === bo8 && bo9 === O){
+            else if(bo7 === O && O === bo8 && bo9 === O){
                 alert("Player O Won the match ") ;
-            }else if(bo7 === bo8 && bo9 === X){
+            }else if(bo7 === X && X ===  bo8 && bo9 === X){
                 alert("Player X Won the match ") ;
             }
              //Other possibility (Vertical  ) 
-             else if(bo1 === bo4 && bo7 === O){
+             else if(bo1 === O && O ===  bo4 && bo7 === O){
                 alert("Player O Won the match ") ;
             }
-            else if(bo1 === bo4 && bo7 === X){
+            else if(bo1 === X && X ===  bo4 && bo7 === X){
                 alert("Player X Won the match ") ;
             }
             
-            else if(bo2 === bo5 && bo8 === O){
+            else if(bo2 === O && O === bo5 && bo8 === O){
                 alert("Player O Won the match ") ;
-            } else if(bo2 === bo5 && bo8 === X){
+            } else if(bo2 === X && X === bo5 && bo8 === X){
                 alert("Player X Won the match ") ;
             }
 
-            else if(bo3 === bo6 && bo9 === O){
+            else if(bo3 === O && O ===  bo6 && bo9 === O){
                 alert("Player O Won the match ") ;
-            } else if(bo3 === bo6 && bo9 === X){
+            } else if(bo3 === X && X === bo6 && bo9 === X){
                 alert("Player X Won the match ") ;
             }
             else{
